@@ -219,26 +219,92 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
-  /*.wrapper {
-    width: 300px; }
-  }*/
+  .container {
+    max-width: 900px;
+  }
+
+  #main-container {
+    float: left;
+    
+  }
+  
+  /*
+  .work {
+      width:
+  }
+
+  .auth-image {
+    width:
+  }
+*/
+  footer {
+    height: 5%;
+    margin-top: 50%;
+  }
+
 }
 @media screen and (max-width: 768px) {
   
-  #header {
+
+  .container {
+    max-width: 690px;
+  }
+
+  #main-container {
+    width: 100%;
+  }
+ 
+  
+  /*
+  .work {
+      width:
+  } */
+
+  .auth-image {
+    width: 50%;
+  }
+
+  footer {
+    height: 5%;
+    margin-top: 30%;
+  }
 
   }
-  }
-
 
 @media screen and (max-width: 640px) {
   
-    #masthead {
-      width: 300px;
-      overflow: auto;
-      position: static;
-
+ #masthead {
+  position: static;
     }
+
+#logo {
+  width: 100%;
+    }
+
+nav {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#main-container {
+  padding: 0px 10px 50px 10px;
+}
+
+.auth-image {
+  width: 100%;
+}
+
+.work {
+    width: 100%;
+}
+
+footer {
+  height: 5%;
+  margin-top: 50%;
+}
+
   }
 
   /*_(Hint: You won't need to use exact pixels for anything other than the container)_
